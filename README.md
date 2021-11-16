@@ -2,10 +2,12 @@
 This project is being done for "Designing Internet Systems" and "Computer Engineering Systems" courses at Voronezh State University. All the details of this project will be given below. The documentation is currently in its infancy and will be updated as new things are added.
 # <p align = "center">Quixoteque - Online Clothing Store</p>
 <br/>
+<p align = "center">Date: 17/11/2021</p>
+<p align = "center">Version: 0.0.4</p>
+<hr/>
 <p align = "center">Date: 09/11/2021</p>
 <p align = "center">Version: 0.0.3</p>
 <hr/>
-<br/>
 <p align = "center">Date: 07/11/2021</p>
 <p align = "center">Version: 0.0.2</p>
 <hr/>
@@ -102,9 +104,11 @@ In order to keep the products on the website up-to-date, the store manager must 
 - Size (S, M, L, XL, XXL etc.)
 - Product Description
 - Number of Items in Stock
-## 6:Constraints
-## 7: Other product requirements
-### 7.1 Applicable standards: 
-### 7.2 System requirements: 
-### 7.3 Performance requirements:
-### 7.4 Environmental requirements:
+## 6: Other product requirements
+### 6.1 Functional requirements: 
+The operation of the website depends on two users. The admin must be able to add new products, change or delete existing products on the site. Product information should be included for each product. In addition, basic information is needed for the admin to access the system. In order for customers to shop, their personal information must be included in the system. In this way, they will be able to buy the product they wants. A bill with the same billing number will be created for each product sold to the same user at the same time. In this way, users will be able to see detailed information about their bills. The systeming simple database design to be created is given below:
+![Database Diagram](https://user-images.githubusercontent.com/68435653/142062578-a568bb0a-5462-4f0e-89c7-56c49a0c97e0.png)
+### 6.2 Performance requirements:
+The program is expected to have a large number of users. Therefore, an effective database design should be done so that the database will not be affected by this and work quickly.
+### 6.3 Software and User Interface requirements:
+The design of the website should be simple and effective for users. In addition, an eye-pleasing design is planned. Also, design must be responsive for users who will use a mobile device to access the website.
