@@ -1,6 +1,6 @@
-# <p align = "center">Project Documentation - Vision Document</p>
+<h1 align = "center">Project Documentation - Vision Document</h1>
 This project is being done for "Designing Internet Systems" and "Computer Engineering Systems" courses at Voronezh State University. All the details of this project will be given below. The documentation is currently in its infancy and will be updated as new things are added.
-# <p align = "center">Quixoteque - Online Clothing Store</p>
+<h1 align = "center">Quixoteque - Online Clothing Store</h1>
 <br/>
 <p align = "center">Date: 17/11/2021</p>
 <p align = "center">Version: 0.0.4</p>
@@ -112,3 +112,14 @@ The operation of the website depends on two users. The admin must be able to add
 The program is expected to have a large number of users. Therefore, an effective database design should be done so that the database will not be affected by this and work quickly.
 ### 6.3 Software and User Interface requirements:
 The design of the website should be simple and effective for users. In addition, an eye-pleasing design is planned. Also, design must be responsive for users who will use a mobile device to access the website.
+
+### Website Main Page Design 
+![main-page](https://user-images.githubusercontent.com/68435653/143216313-c3f93651-b984-4725-976f-58fe4627097e.png)
+
+In addition, the website should include the following pages:
+- Clothes pages for women, men and children
+- Profile page for users
+- Payment/Shopping Card page
+- Product page for users
+- Profile page for admin
+- Product page for admin (add/edit/remove functions for products)
