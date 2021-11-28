@@ -1,0 +1,98 @@
+body {
+  background-color: rgba(231, 231, 231, 0.692);
+}
+
+.title {
+  margin: 10vh 0;
+  color: rgb(78, 78, 78);
+}
+
+.features-bar {
+  margin-top: 5vh;
+}
+
+.card {
+  background-color: rgb(245, 245, 245);
+}
+
+.product {
+  max-width: 250px;
+  width: 200px;
+  height: auto;
+  margin: 5vh 0;
+}
+
+.card > img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .product {
+    min-width: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .features-bar {
+    width: 60%;
+    margin: auto;
+  }
+
+  .card > img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  .product {
+    width: 100%;
+    max-width: 170px;
+  }
+
+  .products {
+    width: 100%;
+  }
+
+  body,
+  .card-title,
+  .card-subtitle {
+    font-size: 0.8rem;
+  }
+  .footer-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 332px) {
+  .clothes {
+    margin: 0;
+    padding: 10px;
+  }
+  .product {
+    width: 100%;
+    margin: 2vh 0;
+    padding: 0;
+  }
+  .products {
+    margin: 0;
+    padding: 0;
+    width: 75vw;
+  }
+  .features-bar {
+    width: 95%;
+  }
+
+  .page-item {
+    width: 21px;
+    text-align: center;
+  }
+
+  body,
+  .card-title,
+  .card-subtitle {
+    font-size: 0.8rem;
+  }
+  .footer-container {
+    width: 80%;
+  }
+}
