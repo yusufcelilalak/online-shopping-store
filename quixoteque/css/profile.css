@@ -1,0 +1,28 @@
+body {
+  background-color: rgba(231, 231, 231, 0.692);
+}
+
+.profile-container {
+  margin-top: 15vh;
+}
+
+.profile-photo > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+input[type="text"]:disabled,
+input[type="password"]:disabled,
+input[type="email"]:disabled {
+  background-color: rgb(245, 245, 245);
+}
+select:disabled {
+  background-color: rgb(245, 245, 245) !important;
+}
+
+@media (max-width: 332px) {
+  .edit-btn {
+    margin: auto;
+  }
+}
