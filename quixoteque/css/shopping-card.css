@@ -1,0 +1,25 @@
+.img-frame > img {
+  padding: 10px;
+  width: 100px;
+  height: 130px;
+  margin: 15px;
+  object-fit: cover;
+}
+
+.customer-info {
+  margin-top: 150px;
+}
+
+@media (max-width: 300px) {
+  .content {
+    flex-wrap: wrap;
+  }
+
+  .img-frame {
+    margin: auto;
+  }
+
+  .img-frame > img {
+    margin: auto;
+  }
+}
