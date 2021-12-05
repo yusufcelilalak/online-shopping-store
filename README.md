@@ -1,7 +1,15 @@
 <h1 align = "center">Project Documentation - Vision Document</h1>
 This project is being done for "Designing Internet Systems" and "Computer Engineering Systems" courses at Voronezh State University. All the details of this project will be given below. The documentation is currently in its infancy and will be updated as new things are added.
+
+You can reach the website which is made in the project with this link: https://yusufcelilalak.github.io/online-shopping-store/quixoteque/index.html
 <h1 align = "center">Quixoteque - Online Clothing Store</h1>
 <br/>
+<p align = "center">Date: 28/11/2021</p>
+<p align = "center">Version: 0.0.6</p>
+<hr/>
+<p align = "center">Date: 24/11/2021</p>
+<p align = "center">Version: 0.0.5</p>
+<hr/>
 <p align = "center">Date: 17/11/2021</p>
 <p align = "center">Version: 0.0.4</p>
 <hr/>
@@ -114,9 +122,13 @@ The program is expected to have a large number of users. Therefore, an effective
 The design of the website should be simple and effective for users. In addition, an eye-pleasing design is planned. Also, design must be responsive for users who will use a mobile device to access the website.
 
 ### Website Main Page Design 
+You can see some examples of pages from the website below:
 ![main-page](https://user-images.githubusercontent.com/68435653/143216313-c3f93651-b984-4725-976f-58fe4627097e.png)
+![clothes-page](https://user-images.githubusercontent.com/68435653/143781759-139a2aae-9f77-4b03-b267-a3a18b1f008b.png)
+![profile-page](https://user-images.githubusercontent.com/68435653/143781773-e674f8fd-07d2-4574-a998-2dd5df60d0ae.png)
 
-In addition, the website should include the following pages:
+The website should include the following pages:
+- Home page
 - Clothes pages for women, men and children
 - Profile page for users
 - Payment/Shopping Card page
