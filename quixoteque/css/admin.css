@@ -1,0 +1,29 @@
+.product-container {
+  margin-top: 15vh;
+}
+
+.product-photo > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.bi-plus-circle {
+  font-size: 1.5rem;
+}
+
+.product-img {
+  width: 5vw;
+  margin: 15px;
+}
+
+.file {
+  display: none;
+}
+
+.file + label {
+  font-size: 0.8em;
+  padding: 3px;
+  display: inline-block;
+  cursor: pointer;
+}
