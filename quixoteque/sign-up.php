@@ -1,3 +1,21 @@
+<?php
+include "connect.php";
+session_start();
+
+
+if(isset($_SESSION['id'])){
+  
+  header("Location: profile.php");
+}
+
+?>
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -80,6 +98,9 @@
             <li class="nav-item">
               <a class="nav-link" href="shopping-card.html"><i class="bi bi-bag fa-4x"></i></a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clear-session.php"><i class="bi bi-box-arrow-right fa-4x"></i></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -88,41 +109,47 @@
     <div class="log-in col-12 col-md-8 mx-auto row justify-content-between" style ="margin: 15vh auto;">
         <div class="col-10 col-sm-5 mx-auto my-5">
             <h3 class="info-title border-bottom border-2 p-1 mb-4">Log In</h3>
-            <form class="row g-3">
+            <form action="login-functions.php" method="post" class="row g-3">
             <div class="col-sm-12">
                 <label for="inputEmail" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail">
+                <input type="email" class="form-control" id="inputEmail" name="inputEmail" required>
             </div>
             <div class="col-sm-12">
                 <label for="inputPassword" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword">
+                <input type="password" class="form-control" id="inputPassword" name="inputPassword" required>
             </div>
             <div class="col-12 text-center text-sm-end">
-              <a class="btn btn-outline-success" href="profile.html" role="button">Log In</a>
+              <button
+              type="submit"
+              name="login"
+              class="btn btn-outline-success"
+            >
+              Log In
+            </button>
             </div>  
             </form>
         </div>
         <div class="col-10 col-sm-5 mx-auto my-5">
             <h3 class="info-title border-bottom border-2 p-1 mb-4">Sign Up</h3>
-            <form class="row g-3">
+            <form action="signup-functions.php" method="post" class="row g-3">
               <div class="col-sm-6">
                 <label for="inputName" class="form-label">Name</label>
-                <input type="text" class="form-control" id="inputName">
+                <input type="text" class="form-control" id="inputName" name="inputName" required>
               </div>
               <div class="col-sm-6">
                 <label for="inputSurname" class="form-label">Surname</label>
-                <input type="text" class="form-control" id="inputName">
+                <input type="text" class="form-control" id="inputSurame" name="inputSurname" required>
               </div>
               <div class="col-sm-12">
                 <label for="inputEmail" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail">
+                <input type="email" class="form-control" id="inputEmail" name="inputEmail" required>
               </div>
               <div class="col-sm-12">
                 <label for="inputPassword" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword">
+                <input type="password" class="form-control" id="inputPassword" name="inputPassword" required>
               </div>
               <div class="col-12 text-center text-sm-end">
-                <button type="button" class="btn btn-outline-success">Sign In</button>
+                <button type="submit" name="signup" class="btn btn-outline-success">Sign In</button>
               </div>  
             </form>
         </div>

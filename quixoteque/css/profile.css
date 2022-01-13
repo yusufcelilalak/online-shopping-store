@@ -3,7 +3,7 @@ body {
 }
 
 .profile-container {
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 
 .profile-photo > img {
@@ -12,17 +12,19 @@ body {
   object-fit: cover;
 }
 
-input[type="text"]:disabled,
-input[type="password"]:disabled,
-input[type="email"]:disabled {
-  background-color: rgb(245, 245, 245);
-}
-select:disabled {
-  background-color: rgb(245, 245, 245) !important;
-}
-
 @media (max-width: 332px) {
   .edit-btn {
     margin: auto;
   }
+}
+
+.file {
+  display: none;
+}
+
+.file + label {
+  font-size: 0.8em;
+  padding: 3px;
+  display: inline-block;
+  cursor: pointer;
 }
